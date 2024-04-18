@@ -28,8 +28,11 @@ body{
     width: 150px;
     height: 150px;
     border: 1px solid red;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
 }
 
 .box:hover{
