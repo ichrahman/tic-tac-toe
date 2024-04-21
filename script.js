@@ -14,11 +14,13 @@ function togglePlayer() {
 // Function to reset the game
 function resetGame() {
     winnerFound = false;
+    currentPlayer = "X";
+    playerTurn = true;
     boxes.forEach(box => {
         box.textContent = "";
     })
 
-    currentPlayer = "X";
+
 }
 
 
